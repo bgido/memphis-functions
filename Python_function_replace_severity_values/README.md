@@ -1,5 +1,6 @@
-function_name: replace_severity_values
-description: This function parses a json file and replaces the severity values with other values according to the following logic -
+## memphis-functions
+
+# This function parses a json file and replaces the severity values with other values according to the following logic -
 If the value of the severity = 1, it replaces 1 with low
 If the value of severity = 2, it replaces 2 with medium
 If the value of the severity = 3, it replaces 3 with high
@@ -9,8 +10,3 @@ If the value of severity = minor, it replaces minor with medium
 If the value of the severity = major, it replaces major with high
 If the value of the severity = critical, it leaves critical as critical
 The output is json with the new values of the severity field
-# tags:
-#   - tag: tag1
-runtime: python3.11 # nodejs | nodejs4.3-edge | nodejs4.3 | nodejs6.10 | nodejs8.10 | nodejs10.x | nodejs12.x | nodejs14.x | nodejs16.x | nodejs18.x | python2.7 | python3.6 | python3.7 | python3.8 | python3.9 | python3.10 | python3.11 | dotnetcore1.0 | dotnetcore2.0 | dotnetcore2.1 | dotnetcore3.1 | dotnet6
-dependencies: 
-handler: replace_severity_values.handler
