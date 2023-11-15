@@ -1,4 +1,4 @@
-function_name: replace_severity_values
+function_name: Python_function_replace_severity_values
 description: This function parses a json file and replaces the severity values with other values
 # tags:
 #   - tag: tag1
