@@ -1,6 +1,6 @@
-## memphis-functions
+# memphis-functions
 
-# This function parses a json file and replaces the severity values with other values according to the following logic -
+### This function parses a json file and replaces the severity values with other values according to the following logic -
 If the value of the severity = 1, it replaces 1 with low
 If the value of severity = 2, it replaces 2 with medium
 If the value of the severity = 3, it replaces 3 with high
