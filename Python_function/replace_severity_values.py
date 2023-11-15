@@ -46,8 +46,4 @@ def replace_severity_values(msg_payload, msg_headers):
         print(f"Error decoding JSON: {e}")
         return None, None
 
-
-
-
-
-    
+   
