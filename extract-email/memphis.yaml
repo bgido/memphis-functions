@@ -1,4 +1,4 @@
-function_name: extract-email1
+function_name: extract-email
 description: Takes all emails out of a given events field and places it into the events out field
 tags:
   - tag: json
