@@ -1,0 +1,16 @@
+go 1.19
+
+use ./flatten_json
+
+use ./remove_fields
+
+use ./add_severity
+
+use ./add_geolocation
+
+use ./add_timestamp
+
+use ./extract_email
+
+use ./unix_to_datetime
+
