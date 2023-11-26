@@ -1,4 +1,4 @@
-function_name: something-else
+function_name: hello-world-python
 description: Hello world function in Python
 tags:
   - tag: json
@@ -6,5 +6,5 @@ tags:
 runtime: python3.11
 inputs:
   - name: field_to_ingest
-handler: nup.nah
+handler: event_handler.handler
 dependencies: requirements.txt
