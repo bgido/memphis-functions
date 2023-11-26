@@ -1,4 +1,4 @@
-function_name: fff
+function_name: hello-world-python
 description: Hello world function in Python
 tags:
   - tag: json
