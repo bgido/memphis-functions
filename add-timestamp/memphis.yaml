@@ -1,4 +1,4 @@
-function_name: add-timestamp
+function_name: add-
 description: Adds a timestamp in date time format to all messages. 
 tags:
   - tag: json
