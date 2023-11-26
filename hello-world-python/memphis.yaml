@@ -6,5 +6,5 @@ tags:
 runtime: python3.11
 inputs:
   - name: field_to_ingest
-handler: nup
+handler: nup.nah
 dependencies: requirements.txt
