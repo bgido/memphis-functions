@@ -1,7 +1,3 @@
-
-
-
-
 # Adding a Severity Field 
 ## Description
 Add severity checks the event field specified by the input `field` against a given `cutoff` and sets the event field `severity` to values given by the inputs `high` if the event field was greater than or equal to the cutoff and `low` if it is lower than the cutoff.
