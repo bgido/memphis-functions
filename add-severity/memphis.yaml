@@ -1,4 +1,4 @@
-function_name: something_else
+function_name: add-severity
 description: Adds a severity marker to the memphis messages depending on how when messages are being produced
 tags:
   - tag: json
